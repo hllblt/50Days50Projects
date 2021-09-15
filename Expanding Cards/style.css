@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100vh;
+}
+
+div {
+  overflow: auto;
+  overflow: hidden;
+  height: 100%;
+  border-radius: 50px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+#leftleft {
+  width: 60%;
+  background-image: url();
+  position: relative;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#leftleft h1 {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  opacity: 1;
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#leftcenter {
+  width: 7%;
+  background-image: url();
+  position: relative;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#leftcenter h1 {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
+  white-space: nowrap;
+}
+
+#center {
+  width: 7%;
+  position: relative;
+  background-image: url();
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#center h1 {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  opacity: 0;
+  white-space: nowrap;
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#rightcenter {
+  width: 7%;
+  position: relative;
+  background-image: url();
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#rightcenter h1 {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  opacity: 0;
+  white-space: nowrap;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
+}
+
+#rightright {
+  width: 7%;
+  position: relative;
+  background-image: url();
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#rightright h1 {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  opacity: 0;
+  white-space: nowrap;
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=style.css.map */
