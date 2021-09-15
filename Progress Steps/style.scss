@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 15%;
+}
+.progressContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  //   border: 1px solid red;
+  position: relative;
+}
+#lowerProgress {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  height: 6px;
+  background-color: rgb(189, 185, 185);
+  width: 95%;
+  z-index: -2;
+  transform: translateY(-50%);
+}
+#upperProgress {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  height: 6px;
+  background-color: #3498db;
+  width: 0%;
+  z-index: -1;
+  transform: translateY(-50%);
+  transition: 0.5s;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 5px solid rgb(189, 185, 185);
+  border-radius: 50%;
+  color: rgb(32, 31, 31);
+  font-weight: bold;
+  font-size: 20px;
+  transition: 1s;
+}
+// .passive {
+//   transition: 1s;
+// }
+.active {
+    border: 5px solid #3498db;
+}
+#next {
+  margin-left: 50px;
+}
+.passiveButton {
+  background-color: lightgrey;
+  color: black;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: not-allowed;
+}
+.activeButton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.activeButton:hover {
+  background-color: darken(#3498db, 10%);
+  transition: 0.3s;
+}
