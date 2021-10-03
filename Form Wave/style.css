@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #4682b4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  background-color: #2a4e6c;
+  width: 400px;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.container h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  width: 100%;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.container label:nth-of-type(1) {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+}
+
+.container label:nth-of-type(2) {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 80px;
+  left: 0;
+}
+
+.container input {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  font-size: 24px;
+  caret-color: white;
+}
+
+.container input:focus {
+  outline: none;
+}
+
+.container input:focus + label span {
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+  color: red;
+}
+
+.container button {
+  border: none;
+  background-color: #add8e6;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.container h3 {
+  font-weight: lighter;
+  color: white;
+  width: 100%;
+}
+
+.container h3 a {
+  text-decoration: none;
+  color: lightblue;
+  font-weight: lighter;
+}
+/*# sourceMappingURL=style.css.map */
