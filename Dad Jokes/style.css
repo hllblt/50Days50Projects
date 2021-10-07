@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #ffc250;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 50px;
+  background-color: white;
+  border-radius: 10px;
+  width: 800px;
+  -webkit-box-shadow: -4px -4px 12px #c7c2c2, 4px 4px 12px #c7c2c2;
+          box-shadow: -4px -4px 12px #c7c2c2, 4px 4px 12px #c7c2c2;
+}
+
+.container #dont {
+  color: #6b6b6b;
+  margin-bottom: 30px;
+}
+
+.container #joke {
+  font-size: 35px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.container #another {
+  border: none;
+  background-color: #5959da;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.container #another:hover {
+  background-color: #6e6edf;
+}
+/*# sourceMappingURL=style.css.map */
